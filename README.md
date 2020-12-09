@@ -1,26 +1,34 @@
+
 # DeepGlobe-Road-Extraction-Challenge
+
+Based on [works of BUPT](https://github.com/zlkanata/DeepGlobe-Road-Extraction-Challenge)
 Code for the 1st place solution in [DeepGlobe Road Extraction Challenge](https://competitions.codalab.org/competitions/18467).
+This program is updated to Python3 and use Atlanta as test
 
 # Requirements
 
-- Cuda 8.0
-- Python 2.7
-- Pytorch 0.2.0
+- Anaconda environments
+- Python 3
+- Pytorch
 - cv2
 
 # Usage
 
-### Data
+## Data
+
 Place '*train*', '*valid*' and '*test*' data folders in the '*dataset*' folder.
 
 Data is from [DeepGlobe Road Extraction Challenge](https://competitions.codalab.org/competitions/18467#participate-get_starting_kit). You should sign in first to get the data.
 
-### Train
+## Train
+
 - Run `python train.py` to train the default D-LinkNet34.
 
-### Predict
+## Predict
+
 - Run `python test.py` to predict on the default D-LinkNet34.
 
-### Download trained D-LinkNet34
+## Download trained D-LinkNet34
+
 - [Dropbox](https://www.dropbox.com/sh/h62vr320eiy57tt/AAB5Tm43-efmtYzW_GFyUCfma?dl=0)
 - [百度网盘](https://pan.baidu.com/s/1wqyOEkw5o0bzbuj7gBMesQ)
